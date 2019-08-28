@@ -1,0 +1,91 @@
+body{
+	margin: 0 auto;
+	/*background: url(../../image/Resurrected.JPG);*/
+}
+.loginbox{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	box-sizing: border-box;
+	background: rgba(0,0,0,0.5);
+	width: 350px;
+	height: 420px;
+	transform: translate(-50%,-50%);
+	font-weight: bold;
+	padding: 80px 40px;
+}
+/*.lebel{
+	position: absolute;
+	top:10px;
+	left: -20px;
+	transform: rotate(-20deg);
+}*/
+.picture{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: calc(-100px/2);
+	left: calc(50% - 50px);
+}
+.here{
+	margin: 0px;
+	padding: 0px 0px 20px;
+	color: #efed40;
+	text-align: center;
+}
+.loginbox p{
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+	color:#fff;
+}
+.loginbox input{
+	width: 100%;
+	margin: 0px 0px 20px;
+}
+.loginbox input[type="email"],
+.loginbox input[type="password"],
+.loginbox input[type="text"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	color: #fff;
+	font-size: 16px;
+	height: 40px;
+	outline: none;
+}
+::placeholder{
+	color: #f2f2f2;
+}
+.loginbox input[type="submit"]{
+	height: 40px;
+	background: #ff267e;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	border-radius: 20px;
+	outline: none;
+}
+.loginbox input[type="submit"]:hover{
+	background: #efed40;
+	color: #262626;
+}
+.loginbox select{
+	width: 100%;
+	margin: 0px 0px 20px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	color: #262626;
+	font-size: 16px;
+	height: 40px;
+	outline: none;
+}
+a{
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}

@@ -1,0 +1,29 @@
+body {
+    background-color: #eee;
+}
+
+*[role="form"] {
+    /*max-width: 530px;*/
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 0.3em;
+}
+
+*[role="form"] h2 {
+    margin-left: 5em;
+    margin-bottom: 1em;
+}
+
+#reg{
+  padding-top: 200px
+}
+body {
+    background: url('b22.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
+    
+}
